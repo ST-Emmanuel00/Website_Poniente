@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>GOT ⚔</title>
 </head>
 
 <body>
-    <nav>
-        <h1>PONIENTE <a href="https://xn--lacompaialibredebraavos-yhc.com/historias-leyendas-la-fortaleza-roja/"> 🌅</a></h1>
+    <nav class="navegador">
+        <img id="logo" src="./Imagenes/Logo_casa_lanister.png" alt="">
         <ul>
             <li><a href="">PONIENTIS</a></li>
             <li><a href="./reynos.html">REYNOS</a></li>
@@ -20,35 +21,34 @@
         </ul>
     </nav>
     <main>
-        <img src="./Imagenes/casas_main.png" alt="" style="height: 700px ;">
+        <img class="mainImg" src="./Imagenes/casas_main.png" alt="">
     </main>
 
-    <footer>
-        <section>
-            <h2>ENVIANOS UN CUERVO</h2>
+    <footer class="piso">
+        <section >
+            <h2> ENVIANOS UN CUERVO</h2>
             <p>Envianos una carta atada a la pata de un cuervo
                 desde cualquier parte del mundo conocido.
             </p>
             <fieldset>
-                <legend>Carta</legend>
                 <form action="">
                     <label for="">Nombre
-                        <input type="text">
+                        <input type="text" id="nombre" name="nombre" placeholder="Su nombre Sr">
                     </label>
                     <label for="">Apellido
-                        <input type="text">
+                        <input type="text" id="apellido" name="apellido" placeholder="El nombre de su casa">
                     </label>
                     <label for="">Correo
-                        <input type="email">
+                        <input type="email" id="correo" name="apellido" placeholder="El destino de nuestros cuervos">
                     </label>
                     <label for="">Comentarios
-                        <textarea name="" id="" cols="10" rows="1"></textarea>
+                        <textarea name="" id="" cols="10" rows="1" placeholder="Su peticion al reino"></textarea>
                     </label>
                     <button>!Arroja el cuervo! 🦅</button>
                 </form>
             </fieldset>
         </section>
-        <section>
+        <section class="contacto">
             <h2>VIAJA A DESEMBARCO DEL REY</h2>
             <h3>¿Donde estamos?</h3>
             <ul>
