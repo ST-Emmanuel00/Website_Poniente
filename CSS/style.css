@@ -1,145 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Averia+Gruesa+Libre&family=Bad+Script&family=Permanent+Marker&display=swap');
+
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-
-.navegador {
-
-    background-color: rgba(75, 4, 4, 0.8);
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    position:fixed;
-}
-
-.navegador ul {
-
-    display: flex;
-    list-style: none;
-    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Averia Gruesa Libre', cursive;
+    font-size: 1.1rem;
 
 }
-
-.navegador ul li {
-    margin: 25px;
-    margin-top: 45px;
-    padding: 15px;
-}
-
-
-.navegador ul li a {
-    color: rgb(214, 179,106);
-    text-decoration: none;
-}
-
-
-/* Logo principal */
 #logo {
 
-    display: -ms-inline-grid;
-    max-height: 100px ;
-    margin: 15px;
-    align-items:flex-start;
+    height: 30px;
+    margin: 5px;
+    margin: 5px 35px;
 }
-
-/* main */
-
-.mainImg {
-
-    width: 100%;
-}
-
-/* footer */
-
-.piso {
-
-    background-color: rgba(250, 249, 194, 0.3);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    align-items: center;
-
-}
-
-.piso h2 {
-
-    font-size: 18px;
-    color: rgb(75, 4, 4);
-    align-items: center;
-    padding-bottom: 10px;
-
-}
-
-.piso p {
-
-    padding-bottom: 10px;
-
-}
-.piso section {
-
-    margin: 10px;
-}
-
-.piso fieldset {
-
-    padding: 15px;
-    border-radius: 10px;
-    width: 100%;
-}
-.piso label {
-
-    color: rgb(75, 4, 4);
-
-}
-.piso input {
-
-    padding: 10px;
-    border-radius: 10px;
-    width: 100%;
-    margin-bottom: 15px;
-
-}
-
-.piso textarea {
-
-    padding: 10px;
-    border-radius: 10px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.piso button {
-
-    padding: 10px;
-    border-radius: 10px;
-    width: 100%;
-    background-color: rgb(75, 4, 4);
-    color: rgba(214, 179,106, 0.99);
-}
-
-/* Contacto */
-
-.piso .contacto {
-
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+nav {
     
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    margin-top: 10px;
+
+}
+nav li { 
+    list-style: none;
+    padding-right: 35px;
+}
+nav a {
+
+    text-decoration: 0;
+    color: rgba(214,179,106,0.2);
+}
+
+nav a:hover{
+
+    text-decoration: 0;
+    color: rgba(214,179,106);;
+}
+
+.main {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url(./Fondo_formulario.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+fieldset {
+
+    width: 10%;
+    min-width: 50%;
+    padding: 20px;
+    margin: 10%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0,0,0, 0.7);
+    text-align: left;
+    
+    
+}
+
+label {
+    padding: 15px;
+    color: rgb(214,179,106);
+}
+
+input {
+
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    border-radius: 15px;
+    border: none;
 
 }
 
-.contacto h3 {
+textarea {
+
+    width: 100%;
+    height: 80px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+button {
+
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(74,4,4,0.6);
+    color: rgb(214,179,106);
+    border: none;
+}
+
+button:hover {
+
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(74,4,4);
+    color: rgb(214,179,106);
+    border: none;
+}
+
+
+
+footer section {
+    background-color: rgba(20,0,0,2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer section:hover {
+
+    background-color: rgb(114,79,06);
+}
+
+footer ul {
 
     display: flex;
-    flex-direction: column;
-    border-left: 1px;
+    list-style: none;
+    
 }
 
-.contacto ul {
+footer li {
 
-    padding-left: 8px;
-    list-style: none;
+    padding: 10px;
+
+}
+
+footer h2 {
+
+    padding-right: 10px;
 }
