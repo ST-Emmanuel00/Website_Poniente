@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Averia+Gruesa+Libre&family=Bad+Script&family=Permanent+Marker&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+#logo {
+
+    height: 30px;
+    padding-left: 35px;
+}
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    height: 35px;
+    width: 100%;
+
+    background-color: rgba(74,4,4);
+    font-family: 'Averia Gruesa Libre', cursive;
+
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    padding-right: 10%;
+    
+}
+
+nav li { 
+
+    list-style: none;
+    padding-left: 20px;
+
+}
+nav a {
+
+    text-decoration: 0;
+    color: rgba(214,179,106,0.5);
+    font-size: 1rem;
+
+}
+
+nav a:hover{
+
+    text-decoration: 0;
+    color: rgba(214,179,106);
+    font-size: 1rem;
+
+}
+
+.portada {
+
+    
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+
+    background-image: url(./mapa_poniente.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 10% 5%;
+
+}
+
+.portada div {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+        
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.portada span {
+
+    color: rgba(214,179,106);
+    font-size: 6rem;
+    font-family: 'Averia Gruesa Libre', cursive;
+    
+
+
+}
+
+.portada p {
+
+    color: white;
+    font-family: 'Averia Gruesa Libre', cursive;
+    font-size: 1.4rem;
+
+    padding: 0 50px;
+}
+
+.portada a {
+
+    text-decoration: none;
+    padding: 0.7% 6%;
+    border-radius: 60px;
+    background-color: rgba(74,4,4,0.6);
+
+    font-family: 'Averia Gruesa Libre', cursive;
+    color: rgb(214,179,106);
+    
+    
+}
+
+.portada a:hover {
+
+    text-decoration: none;
+    padding: 0.7% 6%;
+    border-radius: 60px;
+    background-color: rgba(74,4,4,1);
+
+    font-family: 'Averia Gruesa Libre', cursive;
+    color: rgb(214,179,106,0.8);
+    
+    
+}
+
+.personajes {
+
+    display: flexbox;
+
+    width: 100%;
+    height: auto;
+    font-family: 'Averia Gruesa Libre', cursive;
+
+}
+
+.personajes div {
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+.personajes div a {
+
+    text-align: center;
+    padding: 2.5% 50px;
+    font-family: 'Averia Gruesa Libre', cursive;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    color: rgb(74,4,4);
+
+    
+}
+
+.personajes div a:hover {
+
+    text-align: center;
+    padding: 2.5% 50px;
+    font-family: 'Averia Gruesa Libre', cursive;
+    font-size: 1.5rem;
+
+    color: rgba(214,179,106);
+
+    
+}
+
+.personajes img {
+
+    height: 200px;
+    width: auto;
+
+}
+
+.personajes ul {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+.personajes li {
+
+    list-style: none;
+
+}
+
+.personajes h1 {
+
+    text-align: center;
+    padding: 2.5% 50px;
+
+}
+
+footer {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+
+    background-color: white;
+    color: rgb(74,4,4);
+
+    font-family: 'Averia Gruesa Libre', cursive;
+
+    
+}
+
+.informacion {
+
+    display: flexbox;
+    padding: 40px 10%;
+
+    font-size: 0.9rem;
+}
+
+
+
+.informacion h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.informacion li {
+    list-style: none;
+}
+
+.redes_sociales {
+
+    display: flexbox;
+    justify-content: center;
+    padding: 40px 10% ;
+
+}
+
+.redes_sociales ul {
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+
+}
+
+.redes_sociales li {
+
+    padding: 10%;
+    justify-content: center;
+
+}
+.redes_sociales img {
+
+    height: 50px;
+    width: 50px;
+
+}

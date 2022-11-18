@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Averia+Gruesa+Libre&family=Bad+Script&family=Permanent+Marker&display=swap');
+
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#logo {
+
+    height: 30px;
+    padding-left: 35px;
+}
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    height: 35px;
+    width: 100%;
+
+    background-color: rgba(74,4,4);
+    font-family: 'Averia Gruesa Libre', cursive;
+
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    padding-right: 10%;
+    
+}
+
+nav li { 
+
+    list-style: none;
+    padding-left: 20px;
+
+}
+nav a {
+
+    text-decoration: none;
+    color: rgba(214,179,106,0.5);
+    font-size: 1rem;
+
+}
+
+nav a:hover{
+
+    text-decoration: none;
+    color: rgba(214,179,106);
+    font-size: 1rem;
+
+}
+
+main {
+
+    display: flexbox;
+    text-align: center;
+    margin: 3%;
+    
+    font-family: 'Averia Gruesa Libre', cursive;
+
+}
+
+main ul {
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0%;
+    list-style: none;
+
+}
+
+main li {
+
+    display: flexbox;
+    justify-content: space-around;
+    margin: 3% 0.1%;
+
+}
+
+
+
+
+
+
+
+
+footer {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+
+    background-color: white;
+    color: rgb(74,4,4);
+
+    font-family: 'Averia Gruesa Libre', cursive;
+
+    
+}
+
+.informacion {
+
+    display: flexbox;
+    padding: 40px 10%;
+
+    font-size: 0.9rem;
+}
+
+
+
+.informacion h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.informacion li {
+    list-style: none;
+}
+
+.redes_sociales {
+
+    display: flexbox;
+    justify-content: center;
+    padding: 40px 10% ;
+
+}
+
+.redes_sociales ul {
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+
+}
+
+.redes_sociales li {
+
+    padding: 10%;
+    justify-content: center;
+
+}
+.redes_sociales img {
+
+    height: 50px;
+    width: 50px;
+
+}
+
