@@ -63,23 +63,35 @@ nav a:hover{
 
 }
 
+
+
 main {
 
     display: flexbox;
     text-align: center;
-    margin: 3%;
-    
+    padding: 2.5%;
     font-family: 'Averia Gruesa Libre', cursive;
+    background-color: rgba(214,179,106,0.2);
+}
+
+main h2 {
+
+    color: rgb(74,4,4);
 
 }
 
+main h2:hover {
+
+    text-decoration:underline;
+
+}
 main ul {
 
     display: flex;
-    align-content: center;
-    justify-content: space-between;
+    align-content:space-around;
+    justify-content: space-around;
+    margin: 4% 12%;
     flex-wrap: wrap;
-    padding: 0%;
     list-style: none;
 
 }
@@ -87,19 +99,45 @@ main ul {
 main li {
 
     display: flexbox;
-    justify-content: space-around;
-    margin: 3% 0.1%;
+
+    margin: 3%;
+    min-height: 300px;
+    height: auto;
+    width: 250px ;
+    border-radius: 15px;
+    padding: 4% 2%;
 
 }
 
+main li:hover {
+
+    background-color: rgba(214,179,106,0.1);
+    border-bottom: solid 4px rgb(74,4,4);
+}
+
+main img {
+
+    height: 180px;
+    width: 150px;
+    align-content: center;
+
+}
+
+main h3 {
+
+    color: rgb(74,4,4);
+    padding: 8% 5%;
+}
+
+main p {
+
+    
+    padding: 2% 5% 20% 5%;
+    padding-bottom: 10px;
+}
 
 
-
-
-
-
-
-footer {
+footer { 
 
     width: 100%;
     height: auto;
@@ -123,13 +161,14 @@ footer {
 
     display: flexbox;
     padding: 40px 10%;
-
+    width: auto;
     font-size: 0.9rem;
 }
 
 
 
 .informacion h3 {
+
     margin-top: 10px;
     margin-bottom: 10px;
     
@@ -142,15 +181,18 @@ footer {
 .redes_sociales {
 
     display: flexbox;
+    text-align: center;
     justify-content: center;
-    padding: 40px 10% ;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
 
 }
 
 .redes_sociales ul {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     list-style: none;
 
@@ -168,4 +210,3 @@ footer {
     width: 50px;
 
 }
-

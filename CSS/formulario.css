@@ -5,79 +5,119 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Averia Gruesa Libre', cursive;
-    font-size: 1.1rem;
 
 }
 #logo {
 
     height: 30px;
-    margin: 5px;
-    margin: 5px 35px;
+    padding-left: 35px;
+
 }
+
+header {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
 nav {
     
     display: flex;
     align-items: center;
-    position: fixed;
-    margin-top: 10px;
-    background-color: rgba(0,0,0, 0.0);
 
+
+    height: 35px;
+    width: auto;
+
+    background-color: rgba(4,4,4,0.0);
+
+    position: fixed;
+
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    padding-right: 10%;
+    
 }
 
 nav li { 
 
     list-style: none;
-    padding-right: 35px;
+    padding-left: 20px;
 
 }
 nav a {
 
     text-decoration: 0;
-    color: rgba(214,179,106,0.2);
-    font-size: 1.3rem;
+    color: rgba(214,179,106,0.5);
+    font-size: 1rem;
+
 }
 
 nav a:hover{
 
     text-decoration: 0;
     color: rgba(214,179,106);
-    font-size: 1.4rem;
+    font-size: 1rem;
+
 }
 
 main {
 
-    height: 100%;
+    height: auto;
     width: 100%;
-    display: flex;
-    grid-template-columns: minmax(1200px, auto);
-    grid-template-rows: minmax(50%, auto);
-    justify-content: center;
+
     background-image: url(./Fondo_formulario.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+   
+    
 }
 
 
 fieldset {
 
     display: flex;
-    min-width: 30%;
-    max-width: 30%;
-    padding: 50px 40px;
-    margin: 10% 20%;
-    border-radius: 20px;
+    margin: 10% 30%;
+    padding: 4% 5%;
+    background-color: rgba(0,0,0,0.5);
+
     border: none;
-    background-color: rgba(0,0,0, 0.7);
-    text-align: left;
-    
-    
+    border-radius: 40px;
+
+    width: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    fieldset {
+        display: flex;
+        margin: 10% 10%;
+        padding: 4% 5%;
+        background-color: rgba(0,0,0,0.5);
+    
+        border: none;
+        border-radius: 20px;
+    
+        width: auto;
+    }
+  }
 
 label {
     padding: 15px;
     color: rgb(214,179,106);
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 input {
@@ -114,7 +154,7 @@ button {
     background-color: rgba(74,4,4);
     color: rgb(214,179,106);
     border: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 button:hover {
@@ -131,35 +171,76 @@ button:hover {
 
 
 
-footer section {
-    background-color: rgba(20,0,0,2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+footer {
 
-    grid-template-columns: minmax(auto, 50px);
-
-}
-
-footer section:hover {
-
-    background-color: rgb(114,79,06);
-}
-
-footer ul {
+    width: 100%;
+    height: auto;
 
     display: flex;
-    list-style: none;
+    align-content: center;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+
+    background-color: white;
+    color: rgb(74,4,4);
+
+    font-family: 'Averia Gruesa Libre', cursive;
+
     
 }
 
-footer li {
+.informacion {
 
-    padding: 10px;
+    display: flexbox;
+    padding: 40px 10%;
+    width: auto;
+    font-size: 0.9rem;
+}
+
+
+
+.informacion h3 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.informacion li {
+    list-style: none;
+}
+
+.redes_sociales {
+
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
 
 }
 
-footer h2 {
+.redes_sociales ul {
 
-    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+
+}
+
+.redes_sociales li {
+
+    padding: 10%;
+    justify-content: center;
+
+}
+.redes_sociales img {
+
+    height: 50px;
+    width: 50px;
+
 }

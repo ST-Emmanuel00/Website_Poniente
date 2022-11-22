@@ -30,6 +30,25 @@ nav {
 
 }
 
+@media only screen and (max-width: 767px) {
+    nav {
+
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+        height: 35px;
+        width: 100%;
+    
+        background-color: rgba(74,4,4);
+        font-family: 'Averia Gruesa Libre', cursive;
+    
+        overflow: auto;
+        white-space: nowrap;
+
+    }
+  }
+
 nav ul {
 
     display: flex;
@@ -229,13 +248,14 @@ footer {
 
     display: flexbox;
     padding: 40px 10%;
-
+    width: auto;
     font-size: 0.9rem;
 }
 
 
 
 .informacion h3 {
+
     margin-top: 10px;
     margin-bottom: 10px;
     
@@ -248,15 +268,18 @@ footer {
 .redes_sociales {
 
     display: flexbox;
+    text-align: center;
     justify-content: center;
-    padding: 40px 10% ;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
 
 }
 
 .redes_sociales ul {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     list-style: none;
 
